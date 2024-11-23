@@ -42,7 +42,7 @@ export interface ParsedLocalTransaction {
 export interface ParsedAccountBase {
   pubkey: PublicKey;
   account: AccountInfo<Buffer>;
-  info: any; // TODO: change to unkown
+  info: any; // TODO: change to unknown
 }
 
 export type AccountParser = (
